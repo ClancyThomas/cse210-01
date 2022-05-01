@@ -19,6 +19,10 @@ def main():
             drawGameBoard(squareList)
             print("Player "+winner+" wins!! Good game!")
             turns = 100
+    if (turns==9):
+        drawGameBoard(squareList)
+        print("No winner! It ends in a draw! Better luck next time!!!")
+    print("Thank you for playing!")
 
 
 
